@@ -1,7 +1,7 @@
 ## This is functions which allow calculate inverse matrix 
 ## with caching last result
 
-## create place where will storage our matrix and cache
+## create place where will store our matrix and cache
 
 makeCacheMatrix <- function(x = matrix()) {
 	m<-matrix(nrow = 0, ncol = 0)
